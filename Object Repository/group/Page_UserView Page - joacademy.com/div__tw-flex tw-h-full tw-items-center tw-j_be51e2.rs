@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__tw-flex tw-h-full tw-items-center tw-j_be51e2</name>
+   <tag></tag>
+   <elementGuidId>381153eb-7994-495a-a8ec-31fede4ddb9b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.tw-flex.tw-h-full.tw-items-center.tw-justify-center.false</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='navbar-card']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#navbar-card > div > div >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d322c875-eab9-4c5c-a5f8-69745e635831</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-flex tw-h-full tw-items-center tw-justify-center false</value>
+      <webElementGuid>c99e50d7-d2e5-4c5b-89ce-018b06950070</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbar-card&quot;)/div[@class=&quot;tw-flex tw-h-full tw-items-center tw-justify-between tw-gap-4 tw-px-4 lg:tw-px-8&quot;]/div[@class=&quot;tw-flex tw-h-full tw-items-center tw-justify-center false&quot;]</value>
+      <webElementGuid>00a15aa3-d631-4cbf-aec5-66c7d1397420</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='navbar-card']/div/div</value>
+      <webElementGuid>0436d227-22d1-4cf3-8ad7-66a05887a857</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='مدرستنا'])[1]/preceding::div[1]</value>
+      <webElementGuid>8d5f483b-f5ec-4fbf-ad39-32e4eba425ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='أخبارنا'])[1]/preceding::div[1]</value>
+      <webElementGuid>5073c8cc-6cd8-4157-bc80-1348299c0899</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/div/div</value>
+      <webElementGuid>0efeb1a3-33e4-46dc-9dcf-7cb2c2ae9806</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

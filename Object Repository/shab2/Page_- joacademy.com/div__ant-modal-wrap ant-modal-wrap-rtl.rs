@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__ant-modal-wrap ant-modal-wrap-rtl</name>
+   <tag></tag>
+   <elementGuidId>25483b2f-522b-46b9-924e-37b88178e2f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='صفحاتنا على مواقع التواصل الاجتماعي'])[1]/following::div[11]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.ant-modal-wrap.ant-modal-wrap-rtl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.ant-modal-wrap</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>df7ad257-826b-4c93-ba0f-e5c2ab6e3141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>56c13cc5-3031-424e-9975-e155dd610945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-modal-wrap ant-modal-wrap-rtl</value>
+      <webElementGuid>44919c33-e932-4981-8c8b-33fea14a302f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[2]/div[@class=&quot;ant-modal-root css-14i19y2&quot;]/div[@class=&quot;ant-modal-wrap ant-modal-wrap-rtl&quot;]</value>
+      <webElementGuid>f6c41ca0-1684-4bae-9eb0-197318ce2b49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='صفحاتنا على مواقع التواصل الاجتماعي'])[1]/following::div[11]</value>
+      <webElementGuid>c118fc9f-611a-489c-b722-37ddb12959c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WINDOWS'])[1]/following::div[12]</value>
+      <webElementGuid>f6df82e2-8815-48b1-9f0f-3078eb0ee8c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]</value>
+      <webElementGuid>87217352-95a9-4de7-b810-fe24ea0ca8c6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

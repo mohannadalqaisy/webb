@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__1_2_3_4_5_6_7</name>
+   <tag></tag>
+   <elementGuidId>241c26ba-707e-4272-910f-38cd2dc6bf13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/section/div[2]/div[2]/div[2]/div/div[2]/div[22]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;تحميل المزيد&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e6fdecf0-44d9-4e20-b437-7411c152ef57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> tw-rounded tw-bg-[#001436] tw-px-5 tw-py-2 tw-text-white</value>
+      <webElementGuid>95c0c7b1-b7cf-4a3b-9bd8-32d314d720cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>تحميل المزيد</value>
+      <webElementGuid>9d3290a8-8504-4796-add1-6a3529ea455f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-my-[80px] tw-w-full&quot;]/div[@class=&quot;tw-mt-[64px] tw-px-[10px] lg:tw-px-[40px] xl:tw-px-[120px]  tw-flex tw-w-full tw-flex-col tw-items-start tw-justify-between tw-gap-[24px]  md:tw-flex-row&quot;]/section[@class=&quot;tw-flex tw-w-full tw-shrink-0 tw-flex-col tw-items-start tw-justify-start tw-gap-[24px] lg:!tw-w-2/3&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-flex tw-w-full tw-items-center&quot;]/div[@class=&quot;tw-tab-content tw-w-full&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-gap-[24px]&quot;]/div[@class=&quot;tw-h-fit tw-w-full tw-rounded-[12px] tw-border tw-bg-[#F9F9F9] !tw-p-[24px]&quot;]/div[@class=&quot;tw-flex tw-w-full tw-items-center tw-justify-center&quot;]/button[@class=&quot;tw-rounded tw-bg-[#001436] tw-px-5 tw-py-2 tw-text-white&quot;]</value>
+      <webElementGuid>5b07ce80-088d-465b-ba00-4728bec521bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/section/div[2]/div[2]/div[2]/div/div[2]/div[22]/button</value>
+      <webElementGuid>07bfffc8-be67-401e-a8a4-260fb272a02b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='انضمام'])[25]/following::button[1]</value>
+      <webElementGuid>7fa10924-9f79-4100-9bfb-9b259cd6586b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[20]/following::button[2]</value>
+      <webElementGuid>d778e6ea-21b7-4eae-af97-cb996cfd62ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='جروبات'])[2]/preceding::button[1]</value>
+      <webElementGuid>26eeb351-8aa7-46d6-a8ef-99c311be9c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تجمع طلاب الاستاذ هيثم البلعاوي'])[2]/preceding::button[1]</value>
+      <webElementGuid>85be4c0b-e9ca-4ec3-83a0-781012693dc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[22]/button</value>
+      <webElementGuid>911fbcab-1514-48c9-86f5-39b2b1d28fdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'تحميل المزيد' or . = 'تحميل المزيد')]</value>
+      <webElementGuid>e0f405a8-4d61-4864-bd28-3f2c63e5a122</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

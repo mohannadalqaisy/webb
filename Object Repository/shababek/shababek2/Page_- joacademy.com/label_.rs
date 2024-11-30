@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_</name>
+   <tag></tag>
+   <elementGuidId>988ac546-50a9-4b04-be47-99d447339044</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/form/div/div[2]/div[4]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>label</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>79681186-279b-40fa-810f-e280b3243b8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>media</value>
+      <webElementGuid>cbc0021f-7767-4ed4-9a44-7ad6c96d53cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>focus:tw-shadow-outline-blue tw-duration-400 tw-flex tw-cursor-pointer tw-items-center tw-justify-center tw-rounded-full tw-border tw-px-8 tw-py-2 tw-text-[#1A428A] hover:tw-bg-blue-50 focus:tw-outline-none</value>
+      <webElementGuid>9f4f3f01-6ad5-44ab-8fe7-84874d84c1f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>اضف صورة / فيديو</value>
+      <webElementGuid>10bad1d3-9f5e-4601-8fb6-5a1e12785298</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-mb-5 tw-mt-20 tw-px-4 lg:tw-px-8 2xl:tw-px-32&quot;]/div[@class=&quot;tw-w-full lg:tw-flex lg:tw-flex-row-reverse lg:tw-justify-between&quot;]/div[@class=&quot;lg:tw-w-[57%]&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-center tw-justify-center tw-gap-[18px] lg:tw-gap-[24px]&quot;]/form[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-h-fit tw-w-full tw-rounded-[12px] tw-bg-[#F9F9F9] tw-shadow&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-items-start tw-justify-start tw-gap-[12px] tw-bg-white tw-p-[18px]&quot;]/div[@class=&quot;tw-flex tw-h-fit tw-w-full tw-items-center tw-justify-between&quot;]/div[@class=&quot;tw-relative tw-flex tw-flex-col tw-flex-wrap tw-items-center&quot;]/label[@class=&quot;focus:tw-shadow-outline-blue tw-duration-400 tw-flex tw-cursor-pointer tw-items-center tw-justify-center tw-rounded-full tw-border tw-px-8 tw-py-2 tw-text-[#1A428A] hover:tw-bg-blue-50 focus:tw-outline-none&quot;]</value>
+      <webElementGuid>dc4f2623-5329-4abe-ba7f-e2ef13fb63b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div[2]/div[2]/div/form/div/div[2]/div[4]/div/label</value>
+      <webElementGuid>e4b28d42-2c76-4eb3-af28-f1c2041b3d2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='انضمام'])[10]/following::label[1]</value>
+      <webElementGuid>2de37603-6c21-4bfb-ab86-d7b964497f03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='جيل 2008'])[2]/following::label[1]</value>
+      <webElementGuid>06478d2a-cee3-4f6e-a68f-938a9dcbc5a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='انشر'])[1]/preceding::label[1]</value>
+      <webElementGuid>e0d7984a-2dbf-47bb-9271-0e483336d70b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تذييل جو أكاديمي'])[1]/preceding::label[1]</value>
+      <webElementGuid>0d38822e-f2a3-4af5-b392-a86f9ec7bef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>6c3da886-a95d-49bb-af75-ae51acfea7d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'اضف صورة / فيديو' or . = 'اضف صورة / فيديو')]</value>
+      <webElementGuid>edce82ad-b3dd-4cf7-bd4c-da16e8153874</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

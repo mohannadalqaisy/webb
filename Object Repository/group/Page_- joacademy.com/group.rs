@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>group</name>
+   <tag></tag>
+   <elementGuidId>15d7cc02-f604-454c-9226-9373d9501d73</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/section/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.tw-tab-content > div > div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(2)</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6fcc4ecd-9fc4-4259-9c9a-b79d820b718b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> tw-flex tw-h-full tw-w-full tw-items-start tw-justify-start tw-gap-2 tw-p-[8px]</value>
+      <webElementGuid>0669b80e-90a2-4068-9742-d77fbd369577</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>الونا الارنوبة1 منشور   </value>
+      <webElementGuid>149057ab-712e-417f-a9e6-1b6ec4179f03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-my-[80px] tw-w-full&quot;]/div[@class=&quot;tw-mt-[64px] tw-px-[10px] lg:tw-px-[40px] xl:tw-px-[120px]  tw-flex tw-w-full tw-flex-col tw-items-start tw-justify-between tw-gap-[24px]  md:tw-flex-row&quot;]/section[@class=&quot;tw-flex tw-w-full tw-shrink-0 tw-flex-col tw-items-start tw-justify-start tw-gap-[24px] lg:!tw-w-2/3&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-flex tw-w-full tw-items-center&quot;]/div[@class=&quot;tw-tab-content tw-w-full&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-gap-[24px]&quot;]/div[@class=&quot;tw-h-fit tw-w-full tw-rounded-[12px] tw-border tw-bg-[#F9F9F9] !tw-p-[24px]&quot;]/div[@class=&quot;horizontal_card tw-my-[12px] tw-flex tw-min-h-[100px] tw-w-full tw-items-center tw-justify-between tw-overflow-hidden tw-rounded-[12px] tw-border tw-bg-[#FFFFFF] tw-px-[16px]&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-gap-[16px]&quot;]/div[@class=&quot;tw-flex tw-h-full tw-w-full tw-cursor-pointer tw-items-center tw-justify-start tw-gap-[4px] tw-self-stretch md:tw-gap-[5px]&quot;]/div[@class=&quot;tw-flex tw-h-full tw-w-full tw-items-start tw-justify-start tw-gap-2 tw-p-[8px]&quot;]</value>
+      <webElementGuid>5ec704a6-66be-4b07-ad1d-b85b82ff2dd9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/section/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]</value>
+      <webElementGuid>732e10d5-0a2d-4310-8ec2-4969013ecf48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='انشاء مجموعة جديدة'])[1]/following::div[6]</value>
+      <webElementGuid>d31fc478-ffd5-43c0-b564-6f510584fbe8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='جروبات اخرى'])[1]/following::div[6]</value>
+      <webElementGuid>56cd21d1-07fc-4fed-afaf-30b25ab826e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[2]/preceding::div[2]</value>
+      <webElementGuid>b9c92a73-cb5e-4b52-ab78-3821fbfbec96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[2]/div/div/div[2]</value>
+      <webElementGuid>74c53d06-a44a-4f5f-8562-86d68980c25a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'الونا الارنوبة1 منشور   ' or . = 'الونا الارنوبة1 منشور   ')]</value>
+      <webElementGuid>86f7e1dc-1cf4-4b5c-bc81-4ab6f3eda250</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

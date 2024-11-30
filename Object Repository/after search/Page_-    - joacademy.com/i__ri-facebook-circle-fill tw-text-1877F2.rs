@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__ri-facebook-circle-fill tw-text-1877F2</name>
+   <tag></tag>
+   <elementGuidId>868ec7fc-b03c-4d55-97a0-953b08f48097</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='radix-:r1f:']/button[4]/button/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;facebook&quot;s</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>756cfbbe-c118-4477-90a4-eb3b48d2dd35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ri-facebook-circle-fill tw-text-[#1877F2]</value>
+      <webElementGuid>9311263f-c455-4ffd-b50e-b65ad08e43db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r1f:&quot;)/button[@class=&quot;tw-cursor-pointer&quot;]/button[1]/i[@class=&quot;ri-facebook-circle-fill tw-text-[#1877F2]&quot;]</value>
+      <webElementGuid>40402899-3ab7-408f-ab12-84b5da6b2771</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r1f:']/button[4]/button/i</value>
+      <webElementGuid>36fef673-05db-421f-bc2f-980c039b8cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[4]/button/i</value>
+      <webElementGuid>4dd0ae0f-aaee-4941-af5a-71a4f4aff55b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

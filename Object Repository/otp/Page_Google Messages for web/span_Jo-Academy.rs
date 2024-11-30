@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Jo-Academy</name>
+   <tag></tag>
+   <elementGuidId>c89424f5-fc09-42a7-b055-c67877297b79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Your verification PIN is: 8035'])[1]/following::span[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;‏‪Jo-Academy‬‏ رمز التحقق الخاص بك هو 242435 38 min ago Options for ‏‪Jo-Academy‬‏&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f0f6acdd-a552-4191-b5d5-87da524d03c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>‏‪Jo-Academy‬‏</value>
+      <webElementGuid>839d480e-708e-4941-b3b1-3046e5aaa0eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;material-next-msg strong-focus-enabled&quot;]/mw-app[1]/mw-bootstrap[1]/div[@class=&quot;main-stack&quot;]/main[1]/mw-main-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;main-container main-page ng-star-inserted&quot;]/mw-main-nav[@class=&quot;main-nav&quot;]/mws-conversations-list[1]/nav[@class=&quot;conversation-list ng-star-inserted&quot;]/div[@class=&quot;conv-container ng-star-inserted&quot;]/mws-conversation-list-item[@class=&quot;brighter-selected-indicator ng-star-inserted&quot;]/a[@class=&quot;list-item&quot;]/div[@class=&quot;text-content&quot;]/h2[@class=&quot;name ng-star-inserted&quot;]/span[1]</value>
+      <webElementGuid>7c514596-5861-4d44-9c1c-b393ca837a10</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your verification PIN is: 8035'])[1]/following::span[4]</value>
+      <webElementGuid>c9cbb1a0-ad47-43fa-b2e3-1cfa980bc162</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‏‪Infobip‬‏'])[1]/following::span[6]</value>
+      <webElementGuid>e5c6365b-a760-40af-aebb-2ef1f643a521</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رمز التحقق الخاص بك هو 242435'])[1]/preceding::span[2]</value>
+      <webElementGuid>a5ae32d0-60ef-4b0b-a0aa-d647e3b693a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‏‪Jo.Academy‬‏'])[1]/preceding::span[6]</value>
+      <webElementGuid>201bb28c-ea4b-4ee2-a082-2daf0d16eb46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='‏‪Jo-Academy‬‏']/parent::*</value>
+      <webElementGuid>fa3ce24e-87bd-420e-a65b-4cd8c68d421b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mws-conversation-list-item[2]/a/div[2]/h2/span</value>
+      <webElementGuid>3340cf3c-a3c4-43e8-a15b-54bf2551b338</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '‏‪Jo-Academy‬‏' or . = '‏‪Jo-Academy‬‏')]</value>
+      <webElementGuid>3e3b15f5-f261-4cbd-8694-a53b3a3e2ae3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

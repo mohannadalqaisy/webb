@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>group</name>
+   <tag></tag>
+   <elementGuidId>380c9e99-c63a-47d0-9237-7ffeb1e04461</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/section/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/h4</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(2) > .tw-overflow-hidden > .tw-text-\[12px\]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>d434a489-1ae2-4d1c-b04e-dbb53c56db0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-text-[12px] tw-text-gray-400 tw-m-0 tw-wrap-text  tw-break-words tw-break-all </value>
+      <webElementGuid>d7438f87-5e15-47fe-adcc-2d9369a91c6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>0 منشور   </value>
+      <webElementGuid>f7468adb-3a7a-4452-83b1-8c27c53bef47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-my-[80px] tw-w-full&quot;]/div[@class=&quot;tw-mt-[64px] tw-px-[10px] lg:tw-px-[40px] xl:tw-px-[120px]  tw-flex tw-w-full tw-flex-col tw-items-start tw-justify-between tw-gap-[24px]  md:tw-flex-row&quot;]/section[@class=&quot;tw-flex tw-w-full tw-shrink-0 tw-flex-col tw-items-start tw-justify-start tw-gap-[24px] lg:!tw-w-2/3&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-flex tw-w-full tw-items-center&quot;]/div[@class=&quot;tw-tab-content tw-w-full&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-gap-[24px]&quot;]/div[@class=&quot;tw-h-fit tw-w-full tw-rounded-[12px] tw-border tw-bg-[#F9F9F9] !tw-p-[24px]&quot;]/div[@class=&quot;horizontal_card tw-my-[12px] tw-flex tw-min-h-[100px] tw-w-full tw-items-center tw-justify-between tw-overflow-hidden tw-rounded-[12px] tw-border tw-bg-[#FFFFFF] tw-px-[16px]&quot;]/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-items-center tw-justify-center tw-gap-[16px]&quot;]/div[@class=&quot;tw-flex tw-h-full tw-w-full tw-cursor-pointer tw-items-center tw-justify-start tw-gap-[4px] tw-self-stretch md:tw-gap-[5px]&quot;]/div[@class=&quot;tw-flex tw-h-full tw-w-full tw-items-start tw-justify-start tw-gap-2 tw-p-[8px]&quot;]/div[@class=&quot;tw-overflow-hidden tw-leading-[24px]&quot;]/h4[@class=&quot;tw-text-[12px] tw-text-gray-400 tw-m-0 tw-wrap-text  tw-break-words tw-break-all&quot;]</value>
+      <webElementGuid>edc760ba-6934-46b5-ae36-e6130c09d01f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/section/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/div/h4</value>
+      <webElementGuid>d1607d67-ad46-4cad-bdb6-f49ebc6847f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='قروب لعيون غصن غصنصن'])[1]/following::h4[1]</value>
+      <webElementGuid>8cfd1298-b7a9-4717-8488-b43604969d53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='انشاء مجموعة جديدة'])[1]/following::h4[1]</value>
+      <webElementGuid>7a3b000f-c5dc-4663-80f6-18b77a19ad06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+'])[2]/preceding::h4[1]</value>
+      <webElementGuid>cfbefed6-136a-4cf2-bb64-d85094c11359</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='انضمام'])[6]/preceding::h4[1]</value>
+      <webElementGuid>a36bd50d-0b47-4ef6-93f4-ebbc734b96a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='0 منشور']/parent::*</value>
+      <webElementGuid>22083d01-f8f5-4b44-85d3-67c842a5c3c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div[2]/div/h4</value>
+      <webElementGuid>02fbd822-b571-4e37-bd52-0f2c49271e55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = '0 منشور   ' or . = '0 منشور   ')]</value>
+      <webElementGuid>e40174ae-1435-436f-ba9c-70fd2e72107a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

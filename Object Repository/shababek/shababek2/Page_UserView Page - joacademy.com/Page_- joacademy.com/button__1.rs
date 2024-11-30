@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__1</name>
+   <tag></tag>
+   <elementGuidId>b00b02f9-87e6-4d14-8671-ebfafc647743</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[20]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;حفظ التعديل&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4c1c19fa-1034-476d-a01e-2048efd7b421</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tw-max-w-full tw-w-full tw-transition tw-ease-in-out tw-duration-150 tw-font-bold tw-flex tw-items-center tw-justify-center tw-transition tw-ease-in-out tw-duration-150 styles_buttonVariantSolid__ljhsM styles_buttonColorBlue__0VHnR tw-rounded-full tw-cursor-pointer tw-text-[14px] tw-py-[5px] tw-px-[10px] tw-mt-4 tw-flex tw-max-w-[200px] tw-justify-center</value>
+      <webElementGuid>5c26f09a-b830-4e5a-9f3f-84b3301cc628</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7aa61376-476a-4380-ac3d-83b0f8669104</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>حفظ التعديل</value>
+      <webElementGuid>25a6eb97-f129-44c8-8e75-4ac764c9036b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;radix-:r30:&quot;)/div[@class=&quot;tw-flex tw-w-full tw-flex-col tw-items-start tw-justify-start tw-gap-[12px] tw-px-5&quot;]/div[@class=&quot;tw-self-end&quot;]/button[@class=&quot;tw-max-w-full tw-w-full tw-transition tw-ease-in-out tw-duration-150 tw-font-bold tw-flex tw-items-center tw-justify-center tw-transition tw-ease-in-out tw-duration-150 styles_buttonVariantSolid__ljhsM styles_buttonColorBlue__0VHnR tw-rounded-full tw-cursor-pointer tw-text-[14px] tw-py-[5px] tw-px-[10px] tw-mt-4 tw-flex tw-max-w-[200px] tw-justify-center&quot;]</value>
+      <webElementGuid>f51233b4-8e0c-441a-a531-bae93d92d191</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[20]</value>
+      <webElementGuid>7acc08b8-7991-451b-9e0a-d0c680fec408</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='radix-:r30:']/div/div[3]/button</value>
+      <webElementGuid>b8de8217-6e54-42a2-8905-477dbf054682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='joo'])[1]/following::button[1]</value>
+      <webElementGuid>a5a15172-1258-4b0d-9d1a-4e756ede74f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mohannad qa qa'])[3]/following::button[1]</value>
+      <webElementGuid>014da4e5-ad0a-4714-858c-a438c5ae3808</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::button[1]</value>
+      <webElementGuid>c06abdea-5718-40f8-98de-60ad84981a3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='حفظ التعديل']/parent::*</value>
+      <webElementGuid>e8ba0079-fef8-4087-aa0d-45b68ba72bd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]/button</value>
+      <webElementGuid>9d2e4ec7-337a-4f36-9edd-53dc63518c73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'حفظ التعديل' or . = 'حفظ التعديل')]</value>
+      <webElementGuid>14c0ff25-937a-4738-82ec-bb06425e3ff0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

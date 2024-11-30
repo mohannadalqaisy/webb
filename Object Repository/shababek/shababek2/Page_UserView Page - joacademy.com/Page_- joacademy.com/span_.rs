@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_</name>
+   <tag></tag>
+   <elementGuidId>1c67a35c-a118-4582-8843-fa0a2616b431</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/div/div/div/section/div[2]/div/div[2]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;من خلال البريد الإلكتروني&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>aeed66f3-df05-43e1-a3e6-a5df874968ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>من خلال البريد الإلكتروني</value>
+      <webElementGuid>a31ad7b0-3b26-40f8-833d-7cf92e766082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-justify-between tw-bg-[#F9F9F9]&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-relative tw-flex tw-w-full&quot;]/div[@class=&quot;tw-flex tw-flex-col tw-relative !tw-w-full tw-w-full !tw-overflow-hidden&quot;]/div[1]/div[@class=&quot;tw-flex tw-min-h-screen tw-w-full tw-flex-col tw-items-center tw-justify-start tw-gap-6 tw-bg-[#F9F9F9] tw-py-10&quot;]/section[@class=&quot;tw-flex tw-w-full tw-max-w-[696px] tw-flex-col tw-rounded-2xl tw-bg-[#ffffff] tw-px-4 tw-py-8 md:tw-px-14&quot;]/div[@class=&quot;tw-w-full&quot;]/div[@class=&quot;tw-w-full tw-rounded-[10px] tw-border-[1px] tw-border-solid tw-border-[#ececec] tw-bg-white tw-p-[10px] md:tw-p-[40px] tw-flex tw-w-full tw-items-center tw-mb-[60px] tw-gap-[10px] tw-rounded-[24px] tw-px-[12px] tw-py-[8px] tw-shadow-none sm:tw-flex md:tw-px-[12px] md:tw-py-[8px] tw-hidden tw-border-[1px] tw-border-solid tw-border-[#ececec] !tw-mb-6 tw-h-[64px] !tw-p-2 tw-bg-[#f4f4f4]&quot;]/div[@class=&quot;tw-w-full&quot;]/button[@class=&quot;tw-flex tw-w-full tw-items-center tw-justify-center tw-gap-[16px] tw-font-bold tw-transition tw-ease-in-out tw-duration-150 tw-py-[15px] tw-text-[18px] hover:tw-bg-[#e6e6e6] hover:tw-text-[#343434] tw-text-[#343434] tw-rounded-[16px] !tw-h-[50px]&quot;]/span[1]</value>
+      <webElementGuid>60162c51-768e-49e4-8ca9-2888ee3f2ca5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div[2]/div/div/div/div/section/div[2]/div/div[2]/button/span</value>
+      <webElementGuid>adf793d0-11db-4ca2-ad42-1b00690516ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='من خلال رقم الهاتف'])[1]/following::span[1]</value>
+      <webElementGuid>b2843c34-4331-489a-9aba-9266d89da5f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='تسجيل الدخول'])[1]/following::span[2]</value>
+      <webElementGuid>c7b23266-e783-4e66-95e9-6bc4f52b564d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='رقم الهاتف'])[1]/preceding::span[1]</value>
+      <webElementGuid>58c54a30-b222-4068-ad33-966552008cd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='أرسل'])[1]/preceding::span[1]</value>
+      <webElementGuid>2d8621c1-f9b4-42fe-bca3-68788408898a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='من خلال البريد الإلكتروني']/parent::*</value>
+      <webElementGuid>ba09f757-c850-4997-8ebe-b7ef10049fdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span</value>
+      <webElementGuid>b7d3df1d-dca0-4889-ba8c-99263c7dffed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'من خلال البريد الإلكتروني' or . = 'من خلال البريد الإلكتروني')]</value>
+      <webElementGuid>46e26cd6-f266-4b0d-95b7-6f7001079fe7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
