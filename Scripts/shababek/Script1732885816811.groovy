@@ -28,6 +28,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.joacademy.com/')
 
+//comment
 //login by eamil 
 WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/select_ program-tawjihi'))
 
