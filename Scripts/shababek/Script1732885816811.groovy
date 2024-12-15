@@ -28,11 +28,9 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.joacademy.com/')
 
-//comment
-//login by eamil 
 WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/select_ program-tawjihi'))
 
-WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/close-ads'))
+WebUI.click(findTestObject('Object Repository/add favorite/CLOSE ads/Page_- joacademy.com/close-ads'))
 
 WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/login'))
 
@@ -46,7 +44,7 @@ WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/subm
 
 WebUI.click(findTestObject('Object Repository/shababek/Page_UserView Page - joacademy.com/logo_joacademy'))
 
-WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/close-ads'))
+WebUI.click(findTestObject('Object Repository/add favorite/CLOSE ads/Page_- joacademy.com/close-ads'))
 
 //Enter a group, create a post in it, do all the scenarios for the post, and then delete it
 WebUI.click(findTestObject('Object Repository/shababek/shababek2/Page_2007 - joacademy.com/click on shababek'))
@@ -83,13 +81,32 @@ if (isPopupVisible) {
     println('Popup did not appear.')
 }
 
+WebUI.delay(2)
+
 //Like the post in group
+WebElement li = WebUI.findWebElement(findTestObject('Object Repository/shab2/Page_- joacademy.com/like'))
+
+JavascriptExecutor sb = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+
+sb.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'nearest\'});', li)
+
 WebUI.click(findTestObject('Object Repository/shab2/Page_- joacademy.com/like'))
+
+//scroll to commant
+WebElement y = WebUI.findWebElement(findTestObject('Object Repository/shab2/Page_- joacademy.com/textarea_joj'))
+
+JavascriptExecutor b = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+
+b.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'nearest\'});', y)
 
 //create comment in post in group
 WebUI.setText(findTestObject('Object Repository/shab2/Page_- joacademy.com/textarea_joj'), 'joj')
 
 WebUI.click(findTestObject('Object Repository/shab2/Page_- joacademy.com/submit-commant'))
+
+WebUI.delay(2)
+
+WebUI.refresh()
 
 //create reply in post in group
 WebUI.click(findTestObject('Object Repository/shab2/Page_- joacademy.com/reply'))
@@ -98,19 +115,21 @@ WebUI.setText(findTestObject('Object Repository/shab2/Page_- joacademy.com/texta
 
 WebUI.click(findTestObject('Object Repository/shab2/Page_- joacademy.com/submit-reply'))
 
+WebUI.delay(2)
+
 //Like the comment for post in group
 WebUI.click(findTestObject('Object Repository/shab2/Page_- joacademy.com/like-commant'))
 
 //Edit the comment in post and verify that it has been edited.
 WebUI.click(findTestObject('Object Repository/edit/Page_- joacademy.com/button__edit_delete'))
 
-WebUI.click(findTestObject('Object Repository/shab2/Page_- joacademy.com/edit'))
+WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/editt'))
 
 WebUI.setText(findTestObject('Object Repository/shababek/shababek2/Page_UserView Page - joacademy.com/Page_- joacademy.com/textarea_joo'), 
     'joo')
 
-WebUI.click(findTestObject('Object Repository/shab2/Page_- joacademy.com/save_edit'))
-
+//WebUI.click(findTestObject('Object Repository/shab2/Page_- joacademy.com/save_edit'))
+WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/Page_- joacademy.com/save edite'))
 boolean isPopupVisiblee = WebUI.waitForElementVisible(findTestObject('Object Repository/shab2/Page_- joacademy.com/Updated successfully'), 
     5)
 
@@ -120,12 +139,14 @@ if (isPopupVisiblee) {
     println('Popup did not appear.')
 }
 
+WebUI.delay(3)
+
 //delete comment in post in group 
 WebUI.click(findTestObject('Object Repository/edit/Page_- joacademy.com/button__edit_delete'))
 
-WebUI.click(findTestObject('Object Repository/shababek/shababek2/Page_UserView Page - joacademy.com/Page_UserView Page - joacademy.com/Page_- joacademy.com/button-delete'))
+WebUI.click(findTestObject('Object Repository/shababek/shababek2/Page_UserView Page - joacademy.com/Page_UserView Page - joacademy.com/Page_- joacademy.com/delet-commant'))
 
-WebUI.click(findTestObject('Object Repository/shababek/shababek2/Page_UserView Page - joacademy.com/Page_UserView Page - joacademy.com/Page_- joacademy.com/delete'))
+WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/button_'))
 
 boolean isPopupVisibleee = WebUI.waitForElementVisible(findTestObject('Object Repository/shababek/shababek2/Page_UserView Page - joacademy.com/Page_UserView Page - joacademy.com/Page_- joacademy.com/deleted_commant'), 
     5)
@@ -136,10 +157,13 @@ if (isPopupVisibleee) {
     println('Popup did not appear.')
 }
 
-//Edit the post in group and verify that it has been edited.
-WebUI.click(findTestObject('Object Repository/edit/Page_- joacademy.com/button__edit_deletee'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/edit'))
+//Edit the post in group and verify that it has been edited.
+
+WebUI.click(findTestObject('Object Repository/edit/Page_- joacademy.com/delet and edit'))
+
+WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/edit post'))
 
 WebUI.setText(findTestObject('Object Repository/shab44/Page_- joacademy.com/textarea_jooo'), 'jooo')
 
@@ -153,13 +177,15 @@ if (isPopupVisibl) {
 } else {
     println('Popup did not appear.')
 }
+WebUI.delay(3)
 
 ////Delete the post in group and verify that it has been deleted
-WebUI.click(findTestObject('Object Repository/edit/Page_- joacademy.com/button__edit_deletee'))
+WebUI.click(findTestObject('Object Repository/edit/Page_- joacademy.com/delet and edit'))
 
-WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/Page_- joacademy.com/delete'))
+WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/Page_- joacademy.com/delete post'))
 
-WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/Page_- joacademy.com/button_delete'))
+
+WebUI.click(findTestObject('Object Repository/shab44/Page_- joacademy.com/Page_UserView Page - joacademy.com/Page_- joacademy.com/DELET-POST'))
 
 boolean isPopupVisibll = WebUI.waitForElementVisible(findTestObject('Object Repository/shab44/Page_- joacademy.com/Page_- joacademy.com/Delete successfully'), 
     5)
@@ -169,6 +195,7 @@ if (isPopupVisibll) {
 } else {
     println('Popup did not appear.')
 }
+WebUI.delay(3)
 
 WebUI.back()
 
@@ -184,6 +211,8 @@ jsss.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'ne
 
 WebUI.click(findTestObject('Object Repository/post/Page_- joacademy.com/button_post'))
 
+WebUI.delay(3)
+
 boolean isPopupVisiblll = WebUI.waitForElementVisible(findTestObject('Object Repository/post/Page_- joacademy.com/Updated successfully'), 
     5)
 
@@ -192,13 +221,13 @@ if (isPopupVisiblll) {
 } else {
     println('Popup did not appear.')
 }
+WebUI.delay(3)
 
 WebUI.refresh()
 
 //Make sure the post in general posts is the same as the post in my posts
 WebElement scss = WebUI.findWebElement(findTestObject('Object Repository/post/Page_- joacademy.com/my post'))
 
-// Use JavascriptExecutor to scroll to the element
 JavascriptExecutor jssss = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
 jssss.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'nearest\'});', scss)
@@ -216,55 +245,43 @@ if (elem1 == elem2) {
 } else {
     WebUI.comment('Elements do not match between the two pages.')
 }
-
-//Edit the post and verify that it has been edited.
-WebUI.click(findTestObject('Object Repository/post edit/Page_- joacademy.com/button__delete_edit'))
-
-WebUI.click(findTestObject('Object Repository/post edit/Page_- joacademy.com/edit'))
-
-WebUI.setText(findTestObject('Object Repository/post edit/Page_- joacademy.com/textarea_jo academyy'), 'jo academyy')
-
-WebUI.click(findTestObject('Object Repository/post edit/Page_- joacademy.com/button__post'))
-
-WebUI.click(findTestObject('Object Repository/post edit/Page_- joacademy.com/Updated successfully'))
-
-//Delete the post and verify that it has been deleted
-WebUI.click(findTestObject('Object Repository/post edit/Page_- joacademy.com/button__delete_edit'))
-
-WebUI.click(findTestObject('Object Repository/post edit/Page_- joacademy.com/delete'))
-
-WebUI.click(findTestObject('Object Repository/post edit/Page_- joacademy.com/button__delete'))
-
-WebUI.click(findTestObject('Object Repository/post edit/Page_- joacademy.com/Delete successfully'))
+WebUI.delay(3)
 
 //Verify group joining
-WebUI.click(findTestObject('Object Repository/group/Page_- joacademy.com/groups'))
+WebElement scssx = WebUI.findWebElement(findTestObject('Object Repository/shababek/join group/Page_- joacademy.com/groups'))
 
-WebElement scss = WebUI.findWebElement(findTestObject('Object Repository/group/group3/Page_- joacademy.com/group'))
+JavascriptExecutor jso = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
-// Use JavascriptExecutor to scroll to the element
-JavascriptExecutor jssds = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+jso.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'nearest\'});', scssx)
 
-jssds.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'nearest\'});', scss)
+WebUI.click(findTestObject('Object Repository/shababek/join group/Page_- joacademy.com/groups'))
 
-WebUI.click(findTestObject('Object Repository/group/group3/Page_- joacademy.com/group'))
+WebElement scssc = WebUI.findWebElement(findTestObject('Object Repository/shababek/join group/Page_- joacademy.com/group'))
 
-WebUI.click(findTestObject('Object Repository/group/group2/Page_- joacademy.com/button_join'))
+JavascriptExecutor jsj = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
 
-WebElement scs = WebUI.findWebElement(findTestObject('Object Repository/group/Page_- joacademy.com/button_add_video-image'))
+jsj.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'nearest\'});', scssc)
 
-// Use JavascriptExecutor to scroll to the element
-JavascriptExecutor jsss = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+WebUI.click(findTestObject('Object Repository/shababek/join group/Page_- joacademy.com/group'))
 
-jsss.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'nearest\'});', scs)
+WebUI.click(findTestObject('Object Repository/shababek/join group/Page_- joacademy.com/join'))
 
-boolean isPopupVisiblll = WebUI.waitForElementVisible(findTestObject('Object Repository/group/Page_- joacademy.com/button_add_video-image'),5)
+WebElement ss = WebUI.findWebElement(findTestObject('Object Repository/shababek/join group/Page_- joacademy.com/add-image-video'))
 
-if (isPopupVisiblll) {
-    println('The user has joined the group')
+JavascriptExecutor jo = ((DriverFactory.getWebDriver()) as JavascriptExecutor)
+
+jo.executeScript('arguments[0].scrollIntoView({block: \'center\', inline: \'nearest\'});', ss)
+
+boolean isVisiblee = WebUI.waitForElementVisible(findTestObject('Object Repository/shababek/join group/Page_- joacademy.com/add-image-video'), 
+    5 // Wait up to 10 seconds
+    )
+
+if (isVisiblee) {
+    println('User has joined the group.')
 } else {
-    println('User has not joined the group')
+    println('User has not joined the group.')
 }
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

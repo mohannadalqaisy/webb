@@ -26,25 +26,22 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
-
 // login by email
-//comment test
-//coooooommmm
 WebUI.navigateToUrl('https://www.joacademy.com/')
 
-WebUI.click(findTestObject('files/برنامج التوجيهي و الثانوي'))
+WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/select_ program-tawjihi'))
 
-WebUI.click(findTestObject('files/close ads'))
+WebUI.click(findTestObject('Object Repository/add favorite/CLOSE ads/Page_- joacademy.com/close-ads'))
 
-WebUI.click(findTestObject('files/log in'))
+WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/login'))
 
-WebUI.click(findTestObject('files/log in by email'))
+WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/login_by_email'))
 
-WebUI.setText(findTestObject('Object Repository/Page_- joacademy.com/input__email'), 'mohannadqaisy343@gmail.com')
+WebUI.setText(findTestObject('Object Repository/shababek/Page_- joacademy.com/input__email'), 'mohannadqaisy343@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_- joacademy.com/input__password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/shababek/Page_- joacademy.com/input__password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('files/submit'))
+WebUI.click(findTestObject('Object Repository/shababek/Page_- joacademy.com/submit'))
 
 // select file by drop down list
 WebUI.click(findTestObject('files/select-files'))
@@ -189,12 +186,8 @@ WebUI.click(findTestObject('Object Repository/files/select-files'))
 
 WebUI.click(findTestObject('Object Repository/after search/Page_-    - joacademy.com/share'))
 
-WebUI.click(findTestObject('Object Repository/after search/Page_-    - joacademy.com/i__ri-file-copy-fill  tw-text-1A428A'))
+WebUI.click(findTestObject('Object Repository/after search/Page_-    - joacademy.com/file copy'))
 
-//WebUI.click(findTestObject('Object Repository/after search/Page_-    - joacademy.com/copy file pop up'))
-WebUI.click(findTestObject('Object Repository/after search/Page_-    - joacademy.com/copy file'))
-
-//WebUI.click(findTestObject('Object Repository/after search/Page_-    - joacademy.com/copy file pop up'))
 // Wait for the modal to be visible
 boolean isPopupVisible = WebUI.waitForElementVisible(findTestObject('Object Repository/after search/Page_-    - joacademy.com/copy file pop up'), 
     5 // Wait up to 10 seconds
@@ -209,6 +202,12 @@ if (isPopupVisible) {
 }
 
 WebUI.delay(5)
+
+
+WebUI.refresh()
+
+WebUI.delay(3)
+
 
 //verify clear button 
 
